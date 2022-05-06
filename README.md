@@ -1,2 +1,3 @@
 # ncue-sslink.github.io
-官方網站
+
+自動跳轉功能
