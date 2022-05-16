@@ -21,7 +21,6 @@
             var time = 10;
             timer = setTimeout('Redirect()', time * 1000); //跳轉
         }
-        loadpage()
     </script>
     <style>
         .btn{
@@ -108,7 +107,7 @@
         }
     </style>
 
-    <div class="main-main wrapper">
+    <div class="main-main wrapper" onload="loadpage()">
         <section id="main_body">
             <div class="main-text container">
                 <h1 class="font">Oops!</h1>
