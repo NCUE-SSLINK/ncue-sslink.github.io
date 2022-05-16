@@ -11,7 +11,7 @@
         function Redirect() {
             window.location = "../index.html";
         }
-        function load404page() {
+        function loadpage() {
             // 設定虛擬路徑
             var newUrl="../"
             var newTitle="404 Page not found"
@@ -21,7 +21,7 @@
             var time = 10;
             timer = setTimeout('Redirect()', time * 1000); //跳轉
         }
-        load404page()
+        loadpage()
     </script>
     <style>
         .btn{
